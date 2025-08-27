@@ -1,0 +1,26 @@
+theme: auto
+log_path: "/Users/you/Library/Logs/autoGit.log"
+log_max_size_mb: 10
+log_max_backups: 3
+log_max_age_days: 14
+install_launch_agent: false
+start_interval_sec: 0
+
+repos:
+  - path: "/Users/you/code/project-a"
+    watch: true
+    interval: 20m
+    debounce_ms: 1200
+    batch_window: 45s
+    idle_window: 5s
+    push: false
+    remote: origin
+    branch: ""
+    msg: "autosave: {iso}"
+    parse_gitignore: true
+    excludes:
+      - "**/node_modules/**"
+    sign: false
+    sign_args: []
+    trailers:
+      Co-authored-by: "Teammate Name <mate@example.com>"
