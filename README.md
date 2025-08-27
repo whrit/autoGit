@@ -2,14 +2,14 @@
 
 A macOS-first CLI that auto-commits your Git work **on change**, **on a schedule**, or **both**, with:
 
-- 🧙‍♂️ Interactive setup wizard (`--setup`)
-- 🕒 Interval commits and on-change commits with **batching** (window + idle)
-- 🧠 `.gitignore` parsing merged with custom excludes
-- 🔏 Signed commits (`-S`) and message **trailers** (e.g., `Co-authored-by`)
-- 🗂️ **Multi-repo** support
-- 🗒️ Human-readable logs with **rotation** (default: `~/Library/Logs/autoGit.log`)
-- 🎨 Themed, colored console output (auto/dark/light/mono)
-- 🍎 Optional **LaunchAgent** to run at login
+- Interactive setup wizard (`--setup`)
+- Interval commits and on-change commits with **batching** (window + idle)
+- `.gitignore` parsing merged with custom excludes
+- Signed commits (`-S`) and message **trailers** (e.g., `Co-authored-by`)
+- **Multi-repo** support
+- Human-readable logs with **rotation** (default: `~/Library/Logs/autoGit.log`)
+- Themed, colored console output (auto/dark/light/mono)
+- Optional **LaunchAgent** to run at login
 
 ## Install
 
